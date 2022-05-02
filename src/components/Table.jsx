@@ -1,13 +1,6 @@
 import React, { useContext } from 'react';
 import { StarWearsContexto } from '../contexts/context';
 
-/**
- *
- * @returns setFilters((prevState) => ({
-              ...prevState.filterByNumericValues,
-              selected,
-            }));
- */
 const Table = () => {
   const {
     data,
@@ -21,7 +14,7 @@ const Table = () => {
           <div>Carregando...</div>
         )
         : (
-          <table className="table table-success table-striped">
+          <table className="table table-success table-striped table-hover">
             <thead>
               <tr>
                 <th>Nome</th>

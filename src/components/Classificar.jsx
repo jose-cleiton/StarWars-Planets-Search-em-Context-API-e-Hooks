@@ -14,7 +14,7 @@ const Classificar = () => {
         <label htmlFor="column-filter">
           Coluna
           <select
-            className="form-select"
+            className="form-select text-white-50 bg-dark"
           >
             {columns.map((item, index) => (
               <option key={ index } value={ item }>{item}</option>
@@ -25,7 +25,7 @@ const Classificar = () => {
       </div>
       <div className="form-check ">
         <label
-          className="form-check-label ms-1"
+          className="form-check-label ms-1 "
           htmlFor="flexRadioDefault1"
         >
           Ascendente

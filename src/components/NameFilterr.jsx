@@ -6,14 +6,14 @@ const NameFilterr = () => {
     setFilters,
   } = useContext(StarWearsContexto);
   return (
-    <div className="d-flex justify-content-center ">
+    <div className="d-flex justify-content-center  ">
       <section>
         <div>
-          <h3>Projeto Star Wars - Trybe</h3>
+          <h3>Projeto Star Wars</h3>
         </div>
         <div>
           <input
-            className="form-control"
+            className="form-control text-white-50 bg-dark"
             type="text"
             data-testid="name-filter"
             onChange={ ({ target: { value } }) => setFilters(

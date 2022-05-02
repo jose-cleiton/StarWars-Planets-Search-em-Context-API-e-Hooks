@@ -8,7 +8,7 @@ import { StarWearsProvider } from './contexts/context';
 
 const App = () => (
   <StarWearsProvider>
-    <div className="bg-transparent text-dark">
+    <div className="p-3 mb-2 bg-dark text-white ">
 
       <NameFilterr />
 

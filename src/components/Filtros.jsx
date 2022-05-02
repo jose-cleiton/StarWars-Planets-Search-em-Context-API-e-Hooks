@@ -82,7 +82,7 @@ const Filtros = () => {
       <label htmlFor="column-filter">
         Coluna
         <select
-          className="form-select "
+          className="form-select text-white-50 bg-dark"
           data-testid="column-filter"
           onChange={ (e) => setSelected({ ...selected, column: e.target.value }) }
         >
@@ -99,7 +99,7 @@ const Filtros = () => {
       <label htmlFor="comparison-filter">
         Operador
         <select
-          className="form-select ms-1"
+          className="form-select ms-1 text-white-50 bg-dark"
           data-testid="comparison-filter"
           name="comparison"
           onChange={ (e) => setSelected({ ...selected, comparison: e.target.value }) }
@@ -116,7 +116,7 @@ const Filtros = () => {
         className="ms-1"
       >
         <input
-          className="form-control ms-1"
+          className="form-control ms-1 text-white-50 bg-dark"
           data-testid="value-filter"
           type="number"
           defaultValue="0"

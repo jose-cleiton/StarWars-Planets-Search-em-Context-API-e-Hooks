@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import Table from './components/Table';
-import Filtros from './components/Filtros';
-import { StarWearsProvider } from './contexts/context';
-import ListaFiltros from './components/ListaFiltros';
-import Classificar from './components/Classificar';
 import NameFilterr from './components/NameFilterr';
+import Filtros from './components/Filtros';
+import Classificar from './components/Classificar';
+import ListaFiltros from './components/ListaFiltros';
+import Table from './components/Table';
+import { StarWearsProvider } from './contexts/context';
 
 const App = () => (
   <StarWearsProvider>

@@ -8,7 +8,9 @@ import { StarWearsProvider } from './contexts/context';
 
 const App = () => (
   <StarWearsProvider>
-    <NameFilterr />
+    <div >
+      <NameFilterr />
+    </div>
     <div className="d-flex justify-content-evenly  mb-3">
       <Filtros />
       <Classificar />

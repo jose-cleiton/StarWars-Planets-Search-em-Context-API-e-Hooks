@@ -59,7 +59,7 @@ const Filtros = () => {
     applyFilter();
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [applyFilter, filters.filterByNumericValues]);
+  }, [filters.filterByNumericValues]);
 
   useEffect(() => {
     const filtrosSelecionadosNovo = filters.filterByNumericValues
@@ -73,7 +73,7 @@ const Filtros = () => {
 
     setFiltrosSelecionados(filtrosSelecionadosNovo);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [columns, filters.filterByNumericValues, filtrosSelecionados, setSelected]);
+  }, [filters.filterByNumericValues]);
   return (
     <div
       className="filtros d-flex flex-row justify-content-center align-items-end "

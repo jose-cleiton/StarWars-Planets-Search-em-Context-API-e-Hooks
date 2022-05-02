@@ -8,15 +8,18 @@ import { StarWearsProvider } from './contexts/context';
 
 const App = () => (
   <StarWearsProvider>
-    <div>
+    <div className="bg-transparent text-dark">
+
       <NameFilterr />
+
+      <div className="d-flex justify-content-evenly  mb-3">
+        <Filtros />
+        <Classificar />
+      </div>
+      <ListaFiltros />
+      <Table />
     </div>
-    <div className="d-flex justify-content-evenly  mb-3">
-      <Filtros />
-      <Classificar />
-    </div>
-    <ListaFiltros />
-    <Table />
+
   </StarWearsProvider>
 );
 export default App;

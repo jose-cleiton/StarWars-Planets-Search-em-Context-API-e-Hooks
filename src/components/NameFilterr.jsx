@@ -6,8 +6,8 @@ const NameFilterr = () => {
     setFilters,
   } = useContext(StarWearsContexto);
   return (
-    <div className="d-flex justify-content-start align-self-center ">
-      <section className="col-md-6 col-md-offset-3">
+    <div className="d-flex justify-content-center ">
+      <section>
         <div>
           <h3>Projeto Star Wars - Trybe</h3>
         </div>

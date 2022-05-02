@@ -8,7 +8,7 @@ import { StarWearsProvider } from './contexts/context';
 
 const App = () => (
   <StarWearsProvider>
-    <div >
+    <div>
       <NameFilterr />
     </div>
     <div className="d-flex justify-content-evenly  mb-3">

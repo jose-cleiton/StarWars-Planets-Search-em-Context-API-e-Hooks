@@ -67,7 +67,15 @@ npm test
 
 Isso vai executar todos os testes e mostrar o resultado no terminal.
 
+## Contribuição
 
+Se você deseja contribuir para o projeto, basta criar uma cópia do repositório em sua conta do GitHub e fazer as alterações em sua cópia. Depois, envie uma solicitação de pull para o proprietário do repositório original para que as alterações sejam incluídas no projeto principal.
+
+
+
+## Créditos
+
+Este projeto foi criado por José Cleiton. Agradeço a todos os colaboradores que ajudaram a tornar este projeto possível.
 
 
 
